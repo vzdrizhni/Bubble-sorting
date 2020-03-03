@@ -1,66 +1,45 @@
-# Building with responsive design
-
-> TNW Magazine responsive page.
-
-![screenshot](./app_screenshot.png)
-
-Project description.
+# Bubble Sort
+Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order,until the list is sorted.
 
 ## Built With
 
-- HTML5 and CSS3
-- VSCode, Linters, Stylelint, Validator.w3
-
-## Live Demo
-
-[Live Demo Link](https://patriciachrysy.github.io/Build-responsive-design/)
-
+- Ruby
 
 ## Getting Started
 
 **This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-- Get your browsers up to date
+- Install ruby on your local machine
 
 ### Setup
 
 - Clone the repository on your local machine
-- cd into the folder, find the index.html file and open it
+- cd into the folder, find the bubble_sort file and open it
 
 ### Install
 
+- Install Ruby (most recents versions)
 - Install VSCode or any code editor you like
-- Install Node JS and nmp(most recents versions)
-- Run this command on your terminal in order to install stylelint: npm install stylelint stylelint-config-recommended --save-dev 
-
-### Usage
+- Add gem 'rubocop' to Gemfile (not sure how to use Gemfile? Read <a href="https://bundler.io/v1.15/guides/bundler_setup.html">this</a>).
+- Run bundle install.
 
 ### Run tests
 
-- Test the css by typing the command: npx stylelint .
-- Go to http://validator.w3.org/ , upload the index.html file to test it.
-
-### Deployment
-
-- Get an online web hosting
-- Upload all the files in the htdocs folder of your domain
-- Access your domain name in browser
-
+- Add a copy of <a href="https://github.com/microverseinc/linters-config/blob/master/ruby/.stickler.yml">.stickler.yml</a> and <a href="https://github.com/microverseinc/linters-config/blob/master/ruby/.rubocop.yml">.rubocop.yml</a> to root directory.
+- Run rubocop to fix linters errors
 
 
 ## Authors
 
-👤 Manezeu Patricia Chrystelle
+👤 Adewale Adeshola
 
-- Github: [@githubhandle](https://github.com/patriciachrysy)
-- Twitter: [@twitterhandle](https://twitter.com/ManezeuP)
-- Linkedin: [linkedin](https://www.linkedin.com/in/manezeu-patricia-chrystelle-095072118/)
+- Github: [@githubhandle](https://github.com/Eshy10)
+- Twitter: [@twitterhandle](https://twitter.com/AdesholaAdewal6?s=09)
+- Linkedin: [linkedin](https://www.linkedin.com/in/adewale-adeshola-b0b581139/)
 
 👤 Roman Nikolaev 
 
@@ -80,9 +59,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to <a href="https://microverse.org/">Microverse</a>
 
-## 📝 License
+
 
