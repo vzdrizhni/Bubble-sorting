@@ -10,10 +10,8 @@ def bubble_sort(arr)
     end
     i += 1
   end
-  puts arr.to_s
+  arr
 end
-
-bubble_sort([4, 3, 78, 2, 0, 2])
 
 def bubble_sort_by(arr)
   i = 0
@@ -28,7 +26,7 @@ def bubble_sort_by(arr)
     end
     i += 1
   end
-  puts arr.to_s
+  arr
 end
 
 bubble_sort_by(%w[hello hi hey]) do |first, second|
