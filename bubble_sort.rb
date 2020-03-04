@@ -28,7 +28,3 @@ def bubble_sort_by(arr)
   end
   arr
 end
-
-bubble_sort_by(%w[hello hi hey]) do |first, second|
-  first.length <=> second.length
-end
